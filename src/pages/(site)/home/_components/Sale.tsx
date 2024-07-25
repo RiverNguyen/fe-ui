@@ -1,3 +1,4 @@
+import { SaleImage } from '@/assets'
 import { useTranslate } from '@/hooks/useTranslate'
 import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
@@ -9,7 +10,7 @@ const Sale = () => {
     <>
       <div className='grid md:grid-cols-1 lg:grid-cols-2 gap-0 w-full mt-[74px]'>
         <div className=''>
-          <img src='src/assets/images/4.png' alt='' />
+          <img src={SaleImage} alt='' />
         </div>
         <div className='bg-neutral-2 flex items-center md:py-16 lg:py-0 p-[32px]'>
           <div className='ml-0 sm:ml-14'>

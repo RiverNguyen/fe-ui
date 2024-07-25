@@ -127,7 +127,7 @@ const CartHeader = ({ mobile }: { mobile: boolean }) => {
                 </a>
               </div>
               <div className='mt-6 flex justify-center text-center caption-1-semi text-neutral-4 space-x-3'>
-                <Link to='' className='text-black hover:text-neutral-7 underline'>
+                <Link to='/cart' className='text-black hover:text-neutral-7 underline'>
                   {t('viewCart')}
                 </Link>
                 <span>{t('or')}</span>
