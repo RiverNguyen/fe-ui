@@ -1,7 +1,6 @@
 import { Eye, Heart, ShoppingCart, Star, StarHalf } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { ProductImage } from '@/assets'
-import { Button } from '@/components/ui/button'
 import { useTranslate } from '@/hooks/useTranslate'
 import IconButton from '@/components/ui/icon-button'
 
@@ -26,9 +25,6 @@ const ProductCard = () => {
           onClick={() => {}}
           icon={<Heart className='h-5 w-5' size={12} />}
         />
-        {/* <Button variant={'icon'} size={'icon'} className='absolute top-6 right-4 p-[6px] hover:bg-red hover:text-white'>
-          <Heart />
-        </Button> */}
 
         <div className='flex absolute left-0 right-0 bottom-6 items-center gap-x-20 justify-center'>
           <IconButton
